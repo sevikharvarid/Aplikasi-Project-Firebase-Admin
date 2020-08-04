@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.faq_chatapp_admin">
+    package="com.example.projectadmin">
+
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo1"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddCategory"></activity>
+        <activity android:name=".CategoryUpdate"
+            android:parentActivityName=".MainFeed"></activity>
+        <activity android:name=".ListCategory" />
+        <activity android:name=".AddCategory" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignupActivity" />
         <activity android:name=".ContactUs" />
-        <activity android:name=".personalprofile" />
-        <activity android:name=".MainFeed" />
-        <activity android:name=".ViewQuestion" />
+        <activity
+            android:name=".ViewQuestion"
+            android:parentActivityName=".MainFeed" />
         <activity android:name=".act2" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainFeed" />
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

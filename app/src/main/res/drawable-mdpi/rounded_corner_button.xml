@@ -7,10 +7,10 @@
             android:shape="rectangle">
 
             <solid
-                android:color="#852C2C" />
+                android:color="@color/colorPrimaryRed" />
 
             <stroke
-                android:color="@color/colorAccent"
+                android:color="@color/colorPrimaryRed"
                 android:width="2dp" />
 
             <corners

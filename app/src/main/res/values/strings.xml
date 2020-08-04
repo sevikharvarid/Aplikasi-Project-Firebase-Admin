@@ -1,7 +1,6 @@
 <resources>
-    <string name="app_name">FAQChatApp</string>
+    <string name="app_name">Kemenkumham Sultra Admin</string>
     <string name="logoTitle">qExpert</string>
-    <string name="adminDashboard">Dashboard</string>
 
 
     <string name="titile1">What is <i>qExpert</i> ?</string>
@@ -26,6 +25,9 @@
 
     <string name="profile">Profile</string>
     <string name="search">Search</string>
+    <string name="MyList">MyList</string>
+    <string name="Guide">Guide</string>
+    <string name="About">About</string>
 
     <!-- navigation text -->
     <string name="nav_home">Home</string>
@@ -35,14 +37,15 @@
 
     <!-- page headings -->
     <string name="home_heading">Latest Questions</string>
-    <string name="ask_heading">Ask Questions</string>
+    <string name="ask_heading">Isi Form Berikut</string>
     <string name="settings_heading">Settings</string>
 
     <!-- ask page labels -->
     <string name="ask_title">Title</string>
-    <string name="ask_description">Description</string>
-    <string name="ask_description_hint">Describe your question as clearly as possible</string>
-    <string name="ask_post_button">Post</string>
+    <string name="ask_description">Pertanyaan</string>
+    <string name="ask_description_hint">Isi pertanyaan di kolom ini</string>
+    <string name="ask_category">Category</string>
+    <string name="ask_post_button">Submit Question</string>
 
 
     <!-- vidula strings-->
@@ -84,6 +87,9 @@
     <string name="reply_hint">Add an answer</string>
     <string name="add_reply">Add</string>
     <string name="change_reply">Update</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

@@ -6,19 +6,12 @@
         android:id="@+id/navBtnHome"
         android:icon="@drawable/nav_home"
         android:title="@string/nav_home" />
-<!--    <item
-        android:id="@+id/navBtnAsk"
-        android:icon="@drawable/nav_ask"
-        android:title="@string/nav_question" />
--->
-    <!--<item
-        android:id="@+id/navBtnContact"
-        android:icon="@drawable/nav_feedback"
-        android:title="@string/nav_contact" />
--->
     <item
-        android:id="@+id/navBtnProfile"
-        android:icon="@drawable/nav_user"
-        android:title="@string/profile" />
-
+        android:id="@+id/navBtnAddCategory"
+        android:icon="@drawable/ic_playlist_add_black_24dp"
+        android:title="Add" />
+    <item
+        android:id="@+id/navBtnListCategory"
+        android:title="List"
+        android:icon="@drawable/ic_list_black_24dp"/>
 </menu>
